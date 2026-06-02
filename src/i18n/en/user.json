@@ -1,0 +1,6 @@
+{
+  "HELLO": "Hello {username}, welcome back!",
+  "VALIDATION": {
+    "REQUIRED": "This field is required."
+  }
+}
