@@ -2,5 +2,6 @@
   "HELLO": "Xin chào {username}, chào mừng bạn quay trở lại!",
   "VALIDATION": {
     "REQUIRED": "Trường này không được để trống."
-  }
+  },
+  "not_found": "Không tìm thấy user có ID là {id}"
 }

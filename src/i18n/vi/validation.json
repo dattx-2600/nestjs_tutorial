@@ -1,0 +1,7 @@
+{
+  "name_required": "Tên không được để trống",
+  "name_min_length": "Tên phải từ 3 ký tự trở lên",
+  "email_required": "Email không được để trống",
+  "email_invalid": "Email không đúng định dạng",
+  "password_min_length": "Mật khẩu phải từ 6 ký tự trở lên"
+}
