@@ -16,6 +16,8 @@ services:
       context: .
       dockerfile: Dockerfile
     container_name: nest_api_tuto
+    env_file:
+      - .env
     restart: always
     ports:
       - '3000:3000'
