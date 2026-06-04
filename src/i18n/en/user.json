@@ -1,6 +1,7 @@
 {
-  "HELLO": "Hello {username}, welcome back!",
+  "HELLO": "Xin chào {username}, chào mừng bạn quay trở lại!",
   "VALIDATION": {
-    "REQUIRED": "This field is required."
-  }
+    "REQUIRED": "Trường này không được để trống."
+  },
+  "not_found": "User with ID {id} not found."
 }

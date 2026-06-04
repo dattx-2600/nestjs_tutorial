@@ -1,0 +1,10 @@
+{
+  "name_required": "Name cannot be left empty.",
+  "name_min_length": "Name must be at least 3 characters long.",
+  "email_required": "Email cannot be left empty.",
+  "email_invalid": "Email format is invalid.",
+  "password_min_length": "Password must be at least 6 characters long.",
+  "article_title_required": "Title cannot be left empty.",
+  "article_title_min_length": "Title must be at least 5 characters long.",
+  "article_content_required": "Content cannot be left empty."
+}
