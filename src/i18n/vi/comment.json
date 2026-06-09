@@ -1,0 +1,5 @@
+{
+  "not_found": "Không tìm thấy bình luận có ID {id}",
+  "forbidden_action": "Bạn không có quyền chỉnh sửa hoặc xóa bình luận của người khác!",
+  "delete_success": "Xóa bình luận thành công!"
+}

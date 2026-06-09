@@ -8,7 +8,9 @@ import { UsersModule } from './users/users.module';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { AuthModule } from './auth/auth.module';
 import { ArticlesModule } from './articles/articles.module';
+import { CommentsModule } from './comments/comments.module';
 import * as dotenv from 'dotenv';
+
 
 @Module({
   imports: [
@@ -43,6 +45,7 @@ import * as dotenv from 'dotenv';
     UsersModule,
     AuthModule,
     ArticlesModule,
+    CommentsModule,
   ],
   controllers: [AppController],
   providers: [AppService],
