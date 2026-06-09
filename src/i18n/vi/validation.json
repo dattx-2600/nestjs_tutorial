@@ -3,5 +3,8 @@
   "name_min_length": "Tên phải từ 3 ký tự trở lên",
   "email_required": "Email không được để trống",
   "email_invalid": "Email không đúng định dạng",
-  "password_min_length": "Mật khẩu phải từ 6 ký tự trở lên"
+  "password_min_length": "Mật khẩu phải từ 6 ký tự trở lên",
+  "article_title_required": "Tiêu đề không được để trống",
+  "article_title_min_length": "Tiêu đề phải từ 5 ký tự trở lên",
+  "article_content_required": "Nội dung bài viết không được để trống"
 }

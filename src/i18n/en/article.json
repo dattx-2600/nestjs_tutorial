@@ -1,0 +1,5 @@
+{
+  "not_found": "Article with ID {id} not found.",
+  "forbidden_action": "You do not have permission to modify or delete this article!",
+  "delete_success": "Article deleted successfully!"
+}

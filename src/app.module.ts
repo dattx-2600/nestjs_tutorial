@@ -7,6 +7,7 @@ import { AppService } from './app.service';
 import { UsersModule } from './users/users.module';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { AuthModule } from './auth/auth.module';
+import { ArticlesModule } from './articles/articles.module';
 import * as dotenv from 'dotenv';
 
 @Module({
@@ -41,6 +42,7 @@ import * as dotenv from 'dotenv';
     }),
     UsersModule,
     AuthModule,
+    ArticlesModule,
   ],
   controllers: [AppController],
   providers: [AppService],

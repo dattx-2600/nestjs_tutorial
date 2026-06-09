@@ -1,0 +1,5 @@
+{
+  "not_found": "Không tìm thấy bài viết có ID {id}",
+  "forbidden_action": "Bạn không có quyền chỉnh sửa hoặc xóa bài viết của người khác!",
+  "delete_success": "Xóa bài viết thành công!"
+}

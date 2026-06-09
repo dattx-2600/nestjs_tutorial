@@ -3,6 +3,7 @@ import { ApiBearerAuth, ApiTags } from '@nestjs/swagger';
 import { UsersService } from './users.service';
 import { AuthGuard } from '../auth/auth.guard'; // Import AuthGuard
 import { UpdateUserDto } from './dto/update-user.dto';
+import { UserResponseDto } from './dto/user-response.dto';
 
 @ApiTags('Users CRUD')
 @Controller('users')
@@ -13,15 +14,19 @@ export class UsersController {
   @Get('profile')
   @ApiBearerAuth('JWT-auth')
   @UseGuards(AuthGuard)
-  getProfile(@Req() req: any) {
-    return this.usersService.findOne(req.user.sub);
+  async getProfile(@Req() req: any) {
+    const user = await this.usersService.findOne(req.user.sub);
+
+    return new UserResponseDto(user);
   }
 
   @ApiBearerAuth('JWT-auth')
   @UseGuards(AuthGuard)
   @Get(':id')
-  findOne(@Param('id') id: string) {
-    return this.usersService.findOne(+id);
+  async findOne(@Param('id') id: string) {
+    const user = await this.usersService.findOne(+id);
+
+    return new UserResponseDto(user);
   }
 
   // 2. API Nhận dữ liệu nhấn nút "Lưu" từ trang Settings để cập nhật DB
